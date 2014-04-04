@@ -19,5 +19,5 @@ http://brianhaveri.github.io/Underscore.php
 #To use in CakePHP
 
 1. Copy undercake.php to your app/vendors folder
-2. Include ```App::import('Vendor', 'undercake');``` right before ```class AppController extends Controller {``` in your app_controller.php file
+2. Include ```App::import('Vendor', 'undercake');``` right before ```class AppController extends Controller {``` in your app_controller.php (or AppController.php) file
 3. Use the marvels of Underscore.php like this: ```_uc( $myVar )->map(function($n) { return $n * 2; });```
