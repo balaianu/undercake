@@ -11,7 +11,7 @@ I will try to make a component out of this at a later time.
 
 USAGE EX: ```_uc( $myVar )->map(function($n) { return $n * 2; });```
 
-Note: The ```__::map($myVar, function($n) { return $n * 2; }); ``` method does not work.
+Note: The ```__::map($myVar, function($n) { return $n * 2; }); ``` method does not work (yet).
 
 For extended documentation, see the Underscore.php page at
 http://brianhaveri.github.io/Underscore.php
